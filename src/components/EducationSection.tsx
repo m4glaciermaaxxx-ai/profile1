@@ -32,7 +32,7 @@ export default function EducationSection() {
           >
             {/* Top Indicator */}
             <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/70 backdrop-blur-xs text-neutral-700 text-[10px] font-bold tracking-widest rounded-full border border-neutral-200">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/30 backdrop-blur-md text-neutral-700 text-[10px] font-semibold tracking-widest rounded-full border border-white/60 shadow-xs">
                 <Calendar className="w-3 h-3" />
                 {edu.period}
               </span>

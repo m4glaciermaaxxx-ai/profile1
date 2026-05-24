@@ -52,11 +52,11 @@ export default function SkillsSection() {
                       {cat.category}
                     </h3>
                   </div>
-
-                  {/* Horizontal split for Skill List & Tech Illustration Image */}
-                  <div className="grid grid-cols-1 md:grid-cols-12 gap-5 items-center">
+                  
+                  {/* Horizontal split for Skill List - Full width spacious design */}
+                  <div className="grid grid-cols-1 md:grid-cols-1 gap-5">
                     {/* Progression sliders */}
-                    <div className="md:col-span-8 space-y-4">
+                    <div className="space-y-4">
                       {cat.skills.map((skill) => {
                         // Calculate width pct
                         const pct = skill.level * 20; // e.g. 5 * 20 = 100%
@@ -88,76 +88,6 @@ export default function SkillsSection() {
                           </div>
                         );
                       })}
-                    </div>
-
-                    {/* Technical Illustration Image */}
-                    <div className="md:col-span-4 p-2.5 rounded-2xl border border-white/50 bg-white/20 flex items-center justify-center min-h-[100px]">
-                      {cIdx === 0 && (
-                        <svg className="w-16 h-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" title="AI Graphic">
-                          <circle cx="32" cy="32" r="28" fill="#FBF9E3" opacity="0.6" />
-                          {/* Neural center node */}
-                          <rect x="26" y="26" width="12" height="12" rx="3" fill="#E37434" />
-                          {/* Radiating branches */}
-                          <line x1="32" y1="26" x2="32" y2="12" stroke="#4B9DA9" strokeWidth="2" strokeDasharray="2 1" />
-                          <line x1="32" y1="38" x2="32" y2="52" stroke="#4B9DA9" strokeWidth="2" strokeDasharray="2 1" />
-                          <line x1="26" y1="32" x2="12" y2="32" stroke="#4B9DA9" strokeWidth="2" />
-                          <line x1="38" y1="32" x2="52" y2="32" stroke="#4B9DA9" strokeWidth="2" />
-                          {/* Parameter satellites */}
-                          <circle cx="32" cy="12" r="4" fill="#91C6BC" />
-                          <circle cx="32" cy="52" r="4" fill="#91C6BC" />
-                          <circle cx="12" cy="32" r="4" fill="#E37434" />
-                          <circle cx="52" cy="32" r="4" fill="#FAFBE8" stroke="#4B9DA9" strokeWidth="1" />
-                          {/* Glow accents */}
-                          <path d="M18 18 L24 24" stroke="#FAFBE8" strokeWidth="1.5" />
-                          <path d="M46 46 L40 40" stroke="#FAFBE8" strokeWidth="1.5" />
-                        </svg>
-                      )}
-
-                      {cIdx === 1 && (
-                        <svg className="w-16 h-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" title="Design Graphic">
-                          <circle cx="32" cy="32" r="28" fill="#E8F4F1" opacity="0.6" />
-                          {/* Anchor point handle vector lines */}
-                          <path d="M12 40 Q32 10 52 40" stroke="#4B9DA9" strokeWidth="2" strokeLinecap="round" />
-                          {/* Bezier control handles */}
-                          <circle cx="32" cy="25" r="4" fill="#E37434" />
-                          <line x1="32" y1="25" x2="32" y2="15" stroke="#E37434" strokeWidth="1.5" />
-                          <rect x="30" y="13" width="4" height="4" fill="#E37434" />
-                          {/* Color Palette Indicators */}
-                          <circle cx="20" cy="46" r="5" fill="#91C6BC" />
-                          <circle cx="32" cy="46" r="5" fill="#4B9DA9" />
-                          <circle cx="44" cy="46" r="5" fill="#FAFBE8" stroke="#4B9DA9" strokeWidth="0.5" />
-                        </svg>
-                      )}
-
-                      {cIdx === 2 && (
-                        <svg className="w-16 h-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" title="CGI Graphic">
-                          <circle cx="32" cy="32" r="28" fill="#F9F6EA" opacity="0.6" />
-                          {/* Isometric 3D box wireframe */}
-                          <path d="M32 12 L50 21 L32 30 L14 21 Z" stroke="#4B9DA9" strokeWidth="1.5" fill="#FFFFFF" fillOpacity="0.4" />
-                          <path d="M14 21 V41 L32 50 V30 Z" stroke="#4B9DA9" strokeWidth="1.5" />
-                          <path d="M50 21 V41 L32 50 V30 Z" stroke="#91C6BC" strokeWidth="1.5" />
-                          {/* Dimension coordinate pointers */}
-                          <line x1="32" y1="12" x2="32" y2="4" stroke="#E37434" strokeWidth="1.5" />
-                          <circle cx="32" cy="4" r="2" fill="#E37434" />
-                          {/* Corner points */}
-                          <circle cx="32" cy="30" r="2.5" fill="#91C6BC" />
-                        </svg>
-                      )}
-
-                      {cIdx === 3 && (
-                        <svg className="w-16 h-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" title="Data Tool Graphic">
-                          <circle cx="32" cy="32" r="28" fill="#EAF3F4" opacity="0.6" />
-                          {/* Strategy nodes and branching table tree */}
-                          <rect x="14" y="16" width="36" height="32" rx="4" fill="#FFFFFF" stroke="#4B9DA9" strokeWidth="1.5" />
-                          {/* Grid mockup rows */}
-                          <line x1="18" y1="24" x2="46" y2="24" stroke="#EAF3F4" strokeWidth="2" />
-                          <line x1="18" y1="32" x2="46" y2="32" stroke="#91C6BC" strokeWidth="2" />
-                          <line x1="18" y1="40" x2="36" y2="40" stroke="#E5ECEC" strokeWidth="2" fill="#FAFBE8" />
-                          {/* Analytics pie sector overlay ring */}
-                          <circle cx="44" cy="40" r="8" stroke="#E37434" strokeWidth="2.5" strokeDasharray="32 12" />
-                          <circle cx="44" cy="40" r="4" fill="#E37434" />
-                        </svg>
-                      )}
                     </div>
                   </div>
                 </div>

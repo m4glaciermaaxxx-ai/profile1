@@ -20,6 +20,8 @@ import ExperienceSection from "./components/ExperienceSection";
 import MediaSection from "./components/MediaSection";
 import SkillsSection from "./components/SkillsSection";
 import EvaluationSection from "./components/EvaluationSection";
+import ContactSection from "./components/ContactSection";
+import WaterRippleEffect from "./components/WaterRippleEffect";
 import { personalInfoData } from "./data";
 
 export default function App() {
@@ -63,6 +65,9 @@ export default function App() {
     <div className="relative min-h-screen text-neutral-900 font-sans antialiasedSelection">
       {/* Dynamic Pastel Animated Background Mesh */}
       <BackgroundGlows />
+
+      {/* Interactive Glassy Water Ripple click tracker */}
+      <WaterRippleEffect />
 
       {/* Floating Glassmorphic Top Nav Header */}
       <header
@@ -202,6 +207,9 @@ export default function App() {
 
         {/* 7. 自我评价 */}
         <EvaluationSection />
+
+        {/* 8. 简短联系模块 */}
+        <ContactSection />
       </main>
 
       {/* Bottom Footer Section */}
