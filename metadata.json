@@ -1,0 +1,6 @@
+{
+  "name": "Yin Guangyuan Portfolio",
+  "description": "An artistic, elegant glassmorphic portfolio for Yin Guangyuan - Designer, Researcher, and Content Creator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
