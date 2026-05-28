@@ -118,11 +118,6 @@ export default function SkillsSection() {
                   <p className="text-xs font-bold text-neutral-800 leading-snug">
                     {cert.name}
                   </p>
-                  {cert.authority && (
-                    <p className="text-[10px] text-neutral-450 font-semibold uppercase tracking-wide mt-1">
-                      颁发机构: {cert.authority}
-                    </p>
-                  )}
                 </div>
               ))}
             </div>
@@ -131,7 +126,7 @@ export default function SkillsSection() {
             <div className="mt-6 pt-5 border-t border-black/5 text-center">
               <HeartHandshake className="w-5 h-5 text-stone-500 mx-auto mb-2" />
               <p className="text-xs italic font-normal text-stone-600 leading-relaxed font-serif">
-                “艺术史启发空间美学底层逻辑；数智时代 AI 工具放大创意交付产能。”
+                “跨介视角启发产品思维；数智AI工具放大思维交付产能。”
               </p>
             </div>
           </GlassCard>

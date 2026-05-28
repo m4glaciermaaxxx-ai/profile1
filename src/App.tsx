@@ -83,15 +83,15 @@ export default function App() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="flex items-center gap-2.5 cursor-pointer group"
           >
-            <div className="w-9 h-9 rounded-full bg-white/40 backdrop-blur-md border border-white/60 text-[#1B4D53] group-hover:text-[#E37434] font-serif flex items-center justify-center font-light text-base tracking-widest transition-all duration-300 shadow-sm">
-              尹
+            <div className="px-2.5 h-9 min-w-[2.25rem] rounded-full bg-white/40 backdrop-blur-md border border-white/60 text-[#1B4D53] group-hover:text-[#E37434] font-serif flex items-center justify-center font-light text-xs tracking-widest transition-all duration-300 shadow-sm">
+              尹广源
             </div>
             <div className="flex flex-col">
               <span className="font-sans font-semibold text-xs sm:text-xs tracking-widest text-[#1B4D53] uppercase">
                 YIN GUANGYUAN
               </span>
               <span className="font-sans text-[8px] tracking-widest text-[#4B9DA9] uppercase font-bold">
-                Art & Design Portfolio
+                Resume Website
               </span>
             </div>
           </div>

@@ -8,7 +8,7 @@ export const personalInfoData: PersonalInfo = {
   email: "869024442@qq.com",
   phone: "15329944718",
   title: "高级创意营销设计师 / 艺术史学者",
-  subTitle: "立足学术研究与美学视界，横跨4A广告、外企及自媒体的多维度视觉创作者",
+  subTitle: "拥有在4A广告公司，外企广告公司从事营销广告的工作经历，以及自媒体博主带来的网感与多维度产品视角",
 };
 
 export const educationData: EducationItem[] = [
@@ -48,7 +48,7 @@ export const educationData: EducationItem[] = [
       "辩论大赛中获得全校三等奖",
       "被评为“四川美术学院文艺活动先进个人”",
     ],
-    tag: "美学根基 · 视觉实践",
+    tag: "视觉整合·展览管理",
   },
 ];
 
@@ -129,13 +129,13 @@ export const mediaExperienceData: MediaExperience = {
     "根据数据进行复盘迭代：通过播放量、完播率、涨粉率等核心后台指标，科学迭代内容方向、节奏与视觉艺术风格"
   ],
   achievements: [
-    "从零开始独立启动运营，在不投入推流资金的情况下累计积累垂直粉丝 3w+，打造了多个垂类爆款爆笑视频，单条视频最高阅读量达 250w 播放",
-    "深刻掌握年轻一代用户洞察与流量增长运营逻辑，形成可复用的垂类内容运营方法论，完美适配互联网产品的用户运营和内容思维"
+    "从零开始独立启动运营，在不投入推流资金的情况下累计积累垂直粉丝 25,000+，打造了多个垂类爆款爆笑视频，单条视频最高阅读量达 250w 播放",
+    "深刻掌握年轻一代用户洞察与流量增长运营逻辑，形成可复用的垂类内容运营方法论，完美适配互联网产品的用户运营 and 内容思维"
   ],
   stats: [
-    { label: "账号粉丝", value: "30,000+", subtext: "精准MBTI兴趣垂类群体" },
+    { label: "账号粉丝", value: "25,000+", subtext: "精准MBTI兴趣垂类群体" },
     { label: "最高播放", value: "2.5M+", subtext: "单条视频最高播放量250万+" },
-    { label: "转化思维", value: "100%", subtext: "可复用的内容用户运营逻辑" },
+    { label: "铁粉群人数", value: "1.5k+", subtext: "自媒体核心社群体量" },
   ],
 };
 
@@ -159,7 +159,7 @@ export const categoriesData: SkillCategory[] = [
     ],
   },
   {
-    category: "视频剪辑与空间建模",
+    category: "视频剪辑空间建模",
     skills: [
       { name: "After Effects (AE)", level: 4 },
       { name: "Premiere (PR)", level: 4 },
@@ -168,11 +168,11 @@ export const categoriesData: SkillCategory[] = [
     ],
   },
   {
-    category: "数据分析与研究思维",
+    category: "产品原型数据分析",
     skills: [
+      { name: "原型设计(墨刀/Figma)", level: 4 },
       { name: "SQL (数据分析)", level: 4 },
-      { name: "Xmind (思维导图 / 项目拆解)", level: 5 },
-      { name: "原型设计 (墨刀 / Figma)", level: 4 },
+      { name: "Xmind(思维导图/项目拆解)", level: 5 },
       { name: "Office 办公套件", level: 5 },
     ],
   },

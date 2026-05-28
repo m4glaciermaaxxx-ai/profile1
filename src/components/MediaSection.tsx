@@ -59,7 +59,7 @@ export default function MediaSection() {
               <div className="mt-3.5 flex justify-between gap-1">
                 <div className="bg-white/80 backdrop-blur-xs rounded-lg p-1.5 flex-1 text-center border border-white/40">
                   <p className="text-[8px] font-bold text-neutral-400 uppercase">粉丝量</p>
-                  <p className="text-sm font-black text-stone-800">30,000+</p>
+                  <p className="text-sm font-black text-stone-800">25,000+</p>
                 </div>
                 <div className="bg-white/80 backdrop-blur-xs rounded-lg p-1.5 flex-1 text-center border border-white/40">
                   <p className="text-[8px] font-bold text-neutral-400 uppercase">爆款播放</p>
@@ -85,7 +85,7 @@ export default function MediaSection() {
                   </div>
 
                   <p className="text-[10px] font-bold tracking-tight drop-shadow-md truncate font-serif">
-                    MBTI背后的空间密码与美学真相
+                    INFP心理行为背后的动机
                   </p>
                 </div>
                 
@@ -116,10 +116,10 @@ export default function MediaSection() {
                 {mediaExperienceData.platform}
               </span>
               <h3 className="text-2xl font-light text-neutral-900 tracking-tight mt-2.5 font-serif">
-                与用户心智对话：账号独立主理人实践
+                mbti自媒体账号的创立与运营
               </h3>
               <p className="text-xs text-neutral-600 leading-relaxed mt-2">
-                通过 MBTI 心理美学垂直赛道探索，实现知识自主内容的完全冷启动运营。将空间审美实践、品牌传播论点与粉丝画像心理建模相结合，打造极具艺术感的线上社群。
+                在2022年识别出mbti将成为日后热门话题，在风口早期进行账号创立，通过分析热点与用户心理，打造mbti心理与迷因账号，实现自媒体产品实践
               </p>
             </div>
 
